@@ -1,9 +1,16 @@
 <%-include("./partials/header")-%>
   <body class="bg-teal-600 flex justify-center items-center">
-    <main class=" ">
-      <h1 class="text-white font-extrabold text-center text-4xl">Hello World</h1>
-      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, modi.</p>
-    </main>
-
+    <div class="h-[210mm] w-[210mm] bg-gray-100 p-24">
+      <p class="w text-5xl font-semibold leading-tight text-gray-900"><%- pdfContent.heading %></p>
+      <div class="mt-20 flex justify-between">
+        <div>
+          <p class="text-5xl font-semibold"><%- pdfContent.name %></p>
+          <p class="pt-4"><%- pdfContent.description %></p>
+        </div>
+        <div class="pl-10">
+          <img class="w-[1000px]" src="<%- pdfContent.imgURL %>" alt="" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>

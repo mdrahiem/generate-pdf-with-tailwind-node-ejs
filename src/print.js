@@ -19,7 +19,7 @@ const { writeFile } = require('fs');
 
     writeFile("./pdf/report.pdf", pdf, {}, (err) => {
         if(err){
-            return console.error('error')
+            return console.error('error', err)
         }
 
         console.log('success!')
