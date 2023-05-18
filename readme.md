@@ -33,10 +33,10 @@ Note: Before running the above command make sure you have `print` directory in t
 
 ##### Acknowledgments
 
-Mayk Brito: https://gist.github.com/maykbrito/444645526ac25a413021b0cd4d70fe24
-Express: https://expressjs.com/
-Puppeteer: https://pptr.dev/
-Tailwind CSS: https://tailwindcss.com/
+- Mayk Brito: https://gist.github.com/maykbrito/444645526ac25a413021b0cd4d70fe24
+- Express: https://expressjs.com/
+- Puppeteer: https://pptr.dev/
+- Tailwind CSS: https://tailwindcss.com/
 
 ##### Contact
 
